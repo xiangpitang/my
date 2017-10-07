@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			*{margin:0;padding:0;}
+			li{list-style: none;}
+			a{text-decoration: none;}
+			button{border:none;}			
+			.navbar-brand {padding:15px 0;}
+			.navbar a{color:#777;}
+			.navbar-default{border:none;background: #fff;}
+			
+			.banner{padding:130px 0;background: url(images/hero-boom.jpg) no-repeat center;text-align: center;height:auto;margin-top:-20px;}
+			.b_inner{width:1120px;margin:0 auto;}
+			.banner .txt{width:490px;margin:0 auto;}
+			.banner h1{color:#fff;font-size:48px;line-height: 60px;}
+			.banner p{color:rgba(255,255,255,0.8);font-size:22px;line-height: 30px;margin-top:10px;}
+			.banner button{width:235px; height:60px;margin-top:33px;font-size:24px;color:#ff4500;font-weight: bold;border-radius: 4px;background: #fff;}
+			@media only screen and (max-width:768px ){
+				
+				.banner .txt{width:70%;}
+				.banner .txt h1{width:50%;text-align:center;font-size:32px;}
+				.banner .txt p{width:50%;text-align:center;}
+			}
+			
+			@media only screen and (min-width:768px ) {
+			
+				.banner{width:100%;}
+				.banner .txt{width:100%;}
+				.banner h1{width:100%;}
+				.b_inner{width:750px;}
+			}
+			@media only screen and (min-width:992px ) {
+			
+				
+				.b_inner{width:990px;}
+			}
+			@media only screen and (min-width:1200px ) {
+			
+				
+				.b_inner{width:1170px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class='container'>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">How does it work?</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Signin</a></li>
+        <li><a href="#">Signup</a></li>
+       	
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+		<div class="banner">
+			<div class="b_inner">
+				<div class="txt">
+					<h1>Newsletter Signup Forms for Medium</h1>
+					<p>Build one in a couple clicks. Just paste the link in your Medium story and press enter!</p>
+				</div>
+				<button>Create Form</button>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
